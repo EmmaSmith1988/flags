@@ -1,5 +1,7 @@
 #flag-1 {
   display: flex;
+  justify-content: center;
+  margin-top: 40px;;
 }
 
 #column-1 {
@@ -20,8 +22,22 @@
   height: 300px;
 }
 
+#flag-1:active #column-1 {
+  background-color: green;
+}
+
+#flag-1:active #column-2 {
+  background-color: white;
+}
+
+#flag-1:active #column-3 {
+  background-color: orange;
+}
+
 #flag-2 {
 width: 500px;
+margin-top: 40px;
+margin:auto;
 margin-top: 40px;
 }
 
@@ -40,10 +56,15 @@ margin-top: 40px;
   background-color: yellow;
 }
 
-#flag-2:hover {
+#flag-2:hover #row-1 {
+  background-color: red;
+}
+
+#flag-2:hover #row-2 {
+  background-color: white;
+}
+
+#flag-2:hover #row-3 {
   background-color: green;
 }
 
-#row-2:hover {
-  background-color: purple;
-}
