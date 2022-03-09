@@ -1,25 +1,24 @@
 #flag-1 {
   display: flex;
-  justify-content: center;
-  margin-top: 40px;;
+  margin: 40px auto;
+  width: 500px;
+  height: 300px;
+}
+
+#flag-1 > div {
+  width: 33%;
 }
 
 #column-1 {
   background-color: blue;
-  width: 166px;
-  height: 300px;
 }
 
 #column-2 {
   background-color: white;
-  width: 166px;
-  height: 300px;
 }
 
 #column-3 {
   background-color: red;
-  width: 166px;
-  height: 300px;
 }
 
 #flag-1:active #column-1 {
@@ -36,23 +35,22 @@
 
 #flag-2 {
 width: 500px;
-margin-top: 40px;
-margin:auto;
-margin-top: 40px;
+margin: 40px auto;
+}
+
+#flag-2 > div {
+  height: 100px;
 }
 
 #row-1 {
-  height: 100px;
   background-color: black;
 }
 
 #row-2 {
-  height: 100px;
   background-color: red;
 }
 
 #row-3 {
-  height: 100px;
   background-color: yellow;
 }
 
