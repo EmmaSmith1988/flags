@@ -1,0 +1,49 @@
+#flag-1 {
+  display: flex;
+}
+
+#column-1 {
+  background-color: blue;
+  width: 166px;
+  height: 300px;
+}
+
+#column-2 {
+  background-color: white;
+  width: 166px;
+  height: 300px;
+}
+
+#column-3 {
+  background-color: red;
+  width: 166px;
+  height: 300px;
+}
+
+#flag-2 {
+width: 500px;
+margin-top: 40px;
+}
+
+#row-1 {
+  height: 100px;
+  background-color: black;
+}
+
+#row-2 {
+  height: 100px;
+  background-color: red;
+}
+
+#row-3 {
+  height: 100px;
+  background-color: yellow;
+}
+
+#flag-2:hover {
+  background-color: green;
+}
+
+#row-2:hover {
+  background-color: purple;
+}
